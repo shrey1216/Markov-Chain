@@ -1,1 +1,2 @@
 # Markov-Chain
+A function which takes in n for the vector and matrix size for p and P respectively, and N which dictates the number of steps when computing the transition P.T * p. The function plots the norm of p - p_stationary, p being the probability distribution at each step and p_stationary being the eigenvector corresponding to the max eigenvalue of P.T with its values scaled to have a sum of 1.
