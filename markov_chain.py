@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt
 # The function plots the norm of p - p_stationary, p being the probability distribution
 # at each step and p_stationary being the eigenvector corresponding to the max eigenvalue
 # of P.T with its values scaled to have a sum of 1.
+
 def markov_chain(n, N):
     # 1 Constructing a random n vector and scaling its elements so their sum is 1
     # This is probability vector p
